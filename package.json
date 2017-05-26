@@ -2,6 +2,7 @@
   "name": "xml2jsonfeed",
   "version": "1.0.0",
   "description": "Runs a simple xml to json reformatter for a URL",
+  "main": "index.js",
   "bin": {
     "xjf": "./xml2jsonfeed.js"
   },
@@ -10,6 +11,10 @@
   },
   "author": "David M Sibley <sibley@wisc.edu>",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmsibley/xml2jsonfeed.git"
+  },
   "dependencies": {
     "command-line-args": "^4.0.5",
     "cors": "^2.8.3",
