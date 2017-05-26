@@ -1,6 +1,6 @@
 {
   "name": "xml2jsonfeed",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Runs a simple xml to json reformatter for a URL",
   "main": "index.js",
   "bin": {
