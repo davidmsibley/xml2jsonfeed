@@ -3,11 +3,13 @@ var request = require('request');
 var parseString = require('xml2js').parseString;
 var express = require('express');
 var cors = require('cors');
+var parseUrl = require('url-parse');
 
 var XML2JsonFeed = function XML2JsonFeed(config) {
     var url = config.url;
-    var host = config.host;
     var port = config.port;
+
+    var host = parseUrl(url).host;
 
     var app = express();
     app.use(cors());
