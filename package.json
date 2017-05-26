@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Runs a simple xml to json reformatter for a URL",
   "bin": {
-    "XML2JsonFeed": "./xml2jsonfeed.js"
+    "xjf": "./xml2jsonfeed.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
