@@ -33,7 +33,6 @@ var XML2JsonFeed = function XML2JsonFeed(config) {
         if (!error) {
           parseString(body, function(err, result) {
             if (!err) {
-              console.log('wubba lubba dub dub!');
               resp.json(result);
             } else {
               console.log(err);
