@@ -36,12 +36,12 @@ var XML2JsonFeed = function XML2JsonFeed(config) {
               resp.json(result);
             } else {
               console.log(err);
-              resp.send('oh jeez!');
+              resp.status(500).send('Could not parse XML');
             }
           });
         } else {
           console.log(error);
-          resp.send('oooh, he\'s trying!');
+          resp.status(500).send('Could not request data from url');
         }
       });
     })
